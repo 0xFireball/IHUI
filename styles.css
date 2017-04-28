@@ -1,0 +1,114 @@
+/*
+    IHUI
+
+    @author Nihal Talur (0xFireball)
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+    background: rgb(250, 250, 250);
+    transition: background 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+a {
+    color: #319a88;
+}
+
+a:visited {
+    color: #0e5d4b;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+h1.smaller {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p.tiny {
+    font-size: 0.8rem;
+}
+
+p.small-emph {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.padLeft {
+    margin: 20px;
+}
+
+.small-logo-img>img {
+    border-radius: 8px;
+}
+
+li {
+    padding: 6px;
+    margin: 4px;
+    background: #f9f9f9;
+    border-radius: 2px;
+    letter-spacing: 0.02em;
+}
+
+li>a {
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn,
+button {
+    background-color: #1abc9c;
+    border: none;
+    color: rgb(250, 250, 250);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn-default {
+    background: rgb(250, 250, 250);
+    color: rgb(40, 40, 40);
+    border: 1px solid #1abc9c;
+}
+
+.btn-default:hover {
+    background-color: #1abc9c;
+    color: rgb(250, 250, 250);
+}
+
+
+/* dark theme support */
+
+.dark {
+    color: rgb(240, 240, 240);
+    background: rgb(40, 40, 40);
+}
+
+.btn-dark,
+button.dark {
+    background-color: rgb(40, 40, 40);
+    color: rgb(240, 240, 240);
+}
