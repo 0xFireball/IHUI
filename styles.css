@@ -8,7 +8,7 @@ body {
     font-family: 'Muli', 'Roboto', sans-serif;
     margin-top: 10%;
     background: rgb(250, 250, 250);
-    transition: background 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
+    transition: background 0.4s, color 0.4s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 a {
