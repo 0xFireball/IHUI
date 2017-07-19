@@ -2,6 +2,6 @@
 /* dark theme support */
 
 .dark {
-    color: rgb(240, 240, 240);
-    background: rgb(40, 40, 40);
+    color: $dark-foreground;
+    background: $dark-background;
 }
