@@ -1,0 +1,8 @@
+# build
+dist/
+
+# sass
+.sass-cache/
+
+# Nodejs
+node_modules/
