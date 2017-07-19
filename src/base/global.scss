@@ -1,0 +1,13 @@
+
+$background-transition-duration: 0.4s;
+$background-transition: background $background-transition-duration,
+    color $background-transition-duration $background-transition-ease;
+
+body {
+    font-family: $font-stack;
+    background: $light-background;
+    color: $light-foreground;
+    transition: $background-transition;
+
+    margin-top: $top-margin;
+}
