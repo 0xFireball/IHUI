@@ -1,9 +1,7 @@
 
 .btn,
 button {
-    background-color: #1abc9c;
     border: none;
-    color: $light-background;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -16,18 +14,26 @@ button {
     border-radius: 4px;
 }
 
+.btn:visited {
+    color: inherit;
+}
+
 .btn-default {
-    background: $light-background;
-    color: $light-foreground;
     border: 1px solid $col-primary;
 }
 
 .btn-default:hover {
     background-color: $col-primary;
-    color: $light-background;
+    color: $col-primary-inverse;
 }
 
-.btn-dark,
+.btn.btn-light,
+button.light {
+    background: $light-background;
+    color: $light-foreground;
+}
+
+.btn.btn-dark,
 button.dark {
     background-color: $dark-background;
     color: $dark-foreground;
