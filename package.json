@@ -6,9 +6,12 @@
   "author": "0xFireball <0xFireball@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "mk": "node-sass ./src/ihui.scss ./dist/ihui.css"
+    "mk": "npm run mk-sass && npm run min-css",
+    "mk-sass": "node-sass ./src/ihui.scss ./dist/ihui.css",
+    "min-css": "minify ./dist/ihui.css"
   },
   "devDependencies": {
+    "minifier": "^0.8.1",
     "node-sass": "^4.5.3"
   }
 }
