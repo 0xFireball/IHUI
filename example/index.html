@@ -38,10 +38,15 @@
     <p class="tiny">
       This is a cool stylesheet.
     </p>
-    <a class="btn btn-default btn-dark ripple" onclick="toggleTheme()">Switch Theme</a>
-    <a class="btn btn-default btn-light ripple" href="elements.html">Elements</a>
+    <a class="btn btn-default btn-theme ihui-dark ripple" onclick="toggleTheme()">Switch Theme</a>
+    <a class="btn btn-default ripple" href="elements.html">Elements</a>
   </div>
-  <script src="./script.js"></script>
+  <script>
+    function toggleTheme() {
+      window.document.body.classList.toggle('ihui-dark')
+      window.document.body.classList.toggle('ihui-light')
+    }
+  </script>
 </body>
 
 </html>
