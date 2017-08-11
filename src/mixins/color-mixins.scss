@@ -33,6 +33,18 @@ $current-color-schema: '';
 	}
 }
 
+@mixin theme-colors-global() {
+	$current-color-schema: 'light' !global;
+	.ihui-light & {
+		@content;
+	}
+
+	$current-color-schema: 'dark' !global;
+	.ihui-dark & {
+		@content;
+	}
+}
+
 // Function for retrieving correct color. Remember to use this
 // inside the mixin defined above.
 // FYI: This is actually just a lookup function ==============
