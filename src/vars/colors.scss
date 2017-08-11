@@ -8,6 +8,10 @@ $dark-foreground: rgb(240, 240, 240);
 $dark-background: rgb(40, 40, 40);
 
 @include def-theme-color("background", $light-background, $dark-background);
+
+$fade-amount: 10%;
+@include def-theme-color("background-fade", darken($light-background, $fade-amount), lighten($dark-background, $fade-amount));
+
 @include def-theme-color("foreground", $light-foreground, $dark-foreground);
 
 // palette
