@@ -7,6 +7,9 @@ $light-foreground: rgb(10, 10, 10);
 $dark-foreground: rgb(240, 240, 240);
 $dark-background: rgb(40, 40, 40);
 
+@include def-theme-color("background", $light-background, $dark-background);
+@include def-theme-color("foreground", $light-foreground, $dark-foreground);
+
 // palette
 $col-primary: #14ad93;
 $col-secondary: #0e5d4b;

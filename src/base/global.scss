@@ -5,8 +5,10 @@ $background-transition: background $background-transition-duration,
 
 body {
     font-family: $font-stack;
-    background: $light-background;
-    color: $light-foreground;
+    @include theme-colors {
+        background: theme-color("background");
+        color: theme-color("foreground");
+    }
     transition: $background-transition;
     margin: 0;
 }
