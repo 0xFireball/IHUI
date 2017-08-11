@@ -11,4 +11,8 @@ $dark-background: rgb(40, 40, 40);
 $col-primary: #14ad93;
 $col-secondary: #0e5d4b;
 
+// accents
+$col-primary-accent-x1: lighten($col-primary, 3%);
+$col-primary-accent: lighten($col-primary, 6%);
+
 $col-primary-inverse: #eeeeee;

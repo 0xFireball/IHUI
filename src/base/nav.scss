@@ -1,0 +1,35 @@
+
+ul.nav-content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 10px;
+    overflow: hidden;
+    background-color: $col-primary;
+}
+
+li.nav-item {
+    float: left;
+    background: inherit;
+    padding: 10px 5px;
+    letter-spacing: initial;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    transition: background 0.4s;
+}
+
+li.nav-item:hover {
+    background: $col-primary-accent-x1;
+}
+
+li.nav-item.active {
+    background: $col-primary-accent;
+}
+
+li.nav-item > a {
+    color: $col-primary-inverse;
+    padding: inherit;
+}
+
+li.nav-item.nav-brand > a {
+    font-size: 1.2rem;
+}
