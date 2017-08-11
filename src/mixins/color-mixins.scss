@@ -23,12 +23,12 @@ $dark-colors  : '';
 $current-color-schema: '';
 @mixin theme-colors() {
 	$current-color-schema: 'light' !global;
-	.ihui-light & {
+	&.ihui-light {
 		@content;
 	}
 
 	$current-color-schema: 'dark' !global;
-	.ihui-dark & {
+	&.ihui-dark {
 		@content;
 	}
 }
