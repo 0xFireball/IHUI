@@ -1,4 +1,8 @@
 
+(function () {
+    window.document.body.classList.add('ready')
+})()
+
 let light = 'ihui-light'
 let dark = 'ihui-dark'
 
