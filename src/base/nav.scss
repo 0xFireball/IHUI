@@ -28,8 +28,10 @@ li.nav-item.active {
 li.nav-item > a {
     color: $col-primary-inverse;
     padding: inherit;
+    text-decoration: none;
 }
 
 li.nav-item.nav-brand > a {
     font-size: 1.2rem;
+    padding: 0px 10px;
 }
