@@ -9,7 +9,7 @@ body {
     margin: 0;
 
     @include theme-colors {
-        background: theme-color("background");
+        background-color: theme-color("background");
         color: theme-color("foreground");
     }
 }
