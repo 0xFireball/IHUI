@@ -7,6 +7,11 @@
   <link rel="stylesheet" href="./style.css" />
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
   <style>
+    body.ihui-welcome-page {
+      transition-duration: 0.6s;
+      transition-timing-function: cubic-bezier(.15,.96,.82,.99);
+    }
+
     .ihui-welcome {
       position: relative;
       top: 40%;
@@ -15,11 +20,11 @@
   </style>
 </head>
 
-<body>
+<body class="ihui-welcome-page">
   <div class="center ihui-welcome">
     <h1 class="hero">IHUI</h1>
     <p>
-      This is the landing page for <b>IHUI</b>, a lightweight and elegant stylesheet.
+      Welcome to <b>IHUI</b>, a lightweight and elegant theme.
     </p>
     <a class="btn btn-default ripple" onclick="toggleTheme()">Switch Theme</a>
     <a class="btn btn-default ripple" href="elements.html">Elements</a>
