@@ -19,6 +19,10 @@ li.nav-item {
     cursor: pointer;
 }
 
+li.nav-item-right {
+    float: right;
+}
+
 li.nav-item:hover {
     background: $col-primary-accent-x1;
 }
