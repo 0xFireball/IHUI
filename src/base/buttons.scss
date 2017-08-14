@@ -10,12 +10,13 @@ button {
     letter-spacing: 0.02em;
     margin: 4px 2px;
     transition-duration: 0.4s;
+    user-select: none;
     cursor: pointer;
     border-radius: 4px;
 }
 
 .btn:visited {
-    color: inherit;
+    color: $col-primary;
 }
 
 .btn-default {
