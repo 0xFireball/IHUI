@@ -23,6 +23,12 @@ button {
     border: 1px solid $col-primary;
 }
 
+.btn-solid {
+    background-color: $col-primary;
+    color: $col-primary-inverse;
+    border-color: transparent;
+}
+
 .btn-default:hover {
     background-color: $col-primary;
     color: $col-primary-inverse;
