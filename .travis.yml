@@ -1,5 +1,7 @@
 language: node
 script: npm run mk
+before_install:
+  - npm i -g node-sass minifier
 deploy:
   provider: pages
   skip_cleanup: true
