@@ -15,8 +15,22 @@ $fade-amount: 10%;
 @include def-theme-color("foreground", $light-foreground, $dark-foreground);
 
 // palette
+
+// cyan/blue-green
 $col-primary: #14ad93;
 $col-secondary: #0e5d4b;
+
+// red/bright-pink
+// $col-primary: #ed153c;
+// $col-secondary: #bc1c39;
+
+// cobalt blue
+// $col-primary: #0582ff;
+// $col-secondary: #23598e;
+
+// orange-yellow
+// $col-primary: #ff982b;
+// $col-secondary: #dba241;
 
 // accents
 $col-primary-accent-x1: lighten($col-primary, 3%);
