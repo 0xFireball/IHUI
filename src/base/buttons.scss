@@ -2,7 +2,7 @@
 .btn,
 button {
     border: none;
-    padding: 16px 32px;
+    padding: 12px 24px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -21,6 +21,10 @@ button {
 
 .btn.btn-small {
     padding: 8px 16px;
+}
+
+.btn.btn-large {
+    padding: 16px 32px;
 }
 
 .btn-default {
