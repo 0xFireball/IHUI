@@ -1,0 +1,55 @@
+
+.btn,
+button {
+    border: none;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    letter-spacing: 0.02em;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    user-select: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:visited {
+    color: $col-primary;
+}
+
+.btn.btn-small {
+    padding: 8px 16px;
+}
+
+.btn.btn-large {
+    padding: 16px 32px;
+}
+
+.btn-default {
+    border: 1px solid $col-primary;
+}
+
+.btn-outline {
+    border-color: rgba($col-primary, 0.4);
+}
+
+.btn-solid {
+    background-color: $col-primary;
+    color: $col-primary-inverse;
+    border-color: transparent;
+}
+
+.btn-default:hover {
+    background-color: $col-primary;
+    color: $col-primary-inverse;
+}
+
+.btn.btn-theme,
+button.btn-theme {
+    @include theme-colors {
+        background: theme-color("background");
+        color: theme-color("foreground");
+    }
+}

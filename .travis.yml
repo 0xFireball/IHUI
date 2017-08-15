@@ -1,0 +1,13 @@
+language: node
+script: npm run mk
+before_install:
+  - npm i -g node-sass minifier
+before_deploy:
+  # patch gitignore
+  - sed -i '/dist\//d' ./.gitignore
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master

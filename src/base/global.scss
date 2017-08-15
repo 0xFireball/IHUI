@@ -1,0 +1,15 @@
+
+$background-transition-duration: 0.4s;
+$background-transition: background $background-transition-duration,
+    color $background-transition-duration $background-transition-ease;
+
+body {
+    font-family: $font-stack;
+    transition: $background-transition;
+    margin: 0;
+
+    @include theme-colors {
+        background-color: theme-color("background");
+        color: theme-color("foreground");
+    }
+}

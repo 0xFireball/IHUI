@@ -1,0 +1,16 @@
+
+// Code
+
+code, pre {
+    @include theme-colors-global {
+        background: theme-color("background-fade");
+    }
+}
+
+pre {
+    padding: 1rem;
+}
+
+code {
+    padding: 0.1rem 0.3rem;
+}
